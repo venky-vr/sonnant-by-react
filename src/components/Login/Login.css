@@ -1,0 +1,93 @@
+.title h1{
+    font-weight: bold;
+}
+.formLayout{
+    margin-top: 50px;
+}
+.ant-btn-primary{
+    font-size: 15px;
+    margin-bottom: 8px;
+    line-height: 0;
+    font-weight: 500;
+    padding: 20px 80px;
+    border-radius: 10px;
+    width: 330px;
+    border: none;
+}
+.ant-btn-primary:hover{
+    background: #5250f6;
+    border:2px solid #5250f6;
+}
+.ant-btn > span{
+    top:-2px;
+}
+svg:not(:root) {
+    font-size: 28px;
+    position: absolute;
+    left: 15px;
+    top: 5px;
+}
+
+.fbBtnColor{
+    background: #2b57a6;
+    border: 2px solid #2b57a6;
+}
+.appleBtnColor{
+    background: #000;
+    border: 2px solid #000;
+}
+
+.gooogleBtn{
+    background: #fff;
+    border: 2px solid #000;
+    color: #636579;
+}
+
+h5 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #cac9c9; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+ 
+ h5 span { 
+     background:#fff; 
+     padding:0 10px; 
+     color: #636579 ;
+     font-weight: 400;
+     position: relative;
+    top: 10px;
+    font-size: 15px;
+ }
+
+ .middleContainer{
+     width: 330px;
+     margin: 20px auto;
+ }
+
+ .loginBtn{
+    background: #5250f6;
+ }
+ .loginBtn:hover{
+     border: none;
+ }
+ .login-form-forgot, .ant-form-item-required{
+     color: #636579;
+ }
+ .ant-input{
+    padding: 12px;
+    background: #f0f3f6;
+    border: none;
+    border-radius: 4px;
+ }
+ .ant-form-item-has-error .ant-input{
+    background: #f0f3f6;
+ }
+ .ant-input:focus{
+     border-color: #5250f6;
+ }
+ .ant-form{
+     margin-top: 30px;
+     padding-bottom: 30px;
+ }
